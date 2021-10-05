@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+body {
+    background-color: bisque;
+    
+}
+
+.name {
+    text-align: center;
+    font-family: 'Grey Qo', cursive;
+    font-size: 8rem;
+    color: chocolate;
+
+    position: relative;
+    animation: name;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes name {
+    0% {top: -250px;}
+    100% {top: 0;}
+}
+
+.ingredients {
+    border: 1px solid brown;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.ingredients-table {
+    border: 1px solid brown;
+    margin: 0 auto;
+    color: brown;
+
+    position: relative;
+    animation: table;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes table {
+    0% {left: -282px;}
+    75% {left: 282px;}
+    100% {left: 0;}
+}
+
+.instructions {
+    border: 1px solid brown;
+    width: 50%;
+    margin: 0 auto;
+    color: brown;
+}
+
+.pizza {
+    position: relative;
+    animation: pizza;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pizza {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.pizza2 {
+    position: relative;
+    animation: pizza2;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pizza2 {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.pizza3 {
+    position: relative;
+    animation: pizza3;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pizza3 {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.appetite {
+    color: chocolate;
+    text-align: center;
+    font-family: 'Grey Qo', cursive;
+    font-size: 6rem;
+}
+
+.recipe {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    opacity: 0;
+    border: 3px solid darkslateblue;
+    color: darkslateblue;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    
+    animation: btn;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes btn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.footer {
+    color: chocolate;
+    text-align: center;
+    font-family: 'Grey Qo', cursive;
+    font-size: 4rem;
+}
